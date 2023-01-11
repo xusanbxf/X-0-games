@@ -92,5 +92,5 @@ function restart(text) {
 function updateStat() {
     document.getElementById('sX').innerHTML = stat.x;
     document.getElementById('s0').innerHTML = stat.o;
-    document.getElementById('sВ').innerHTML = stat.d;
+    document.getElementById('sD').innerHTML = stat.d;
 } 
