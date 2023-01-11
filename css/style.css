@@ -1,19 +1,24 @@
-* {margin: 0; padding: 0;}
+* { 
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
-.content {
+}
+.content{
     display: flex;
-    margin: 100px 50px 50px 50px;
+    margin: 200px 107px 50px 50px;
     font-family: sans-serif;
 }
-
-#area {
+#area{
     width: 156px;
     border: 1px solid #000;
-    margin: 0 auto;
+    margin:  0 auto;
     font-size: 0;
 }
-
-.cell {
+.cell{
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -23,31 +28,27 @@
     border: 1px solid #000;
     cursor: pointer;
     vertical-align: middle;
-    transition: background .1s;
+    transition: 1s;
+    background: #5b19c5;
 }
-
-.cell:hover {
-    background-color: #F1F1F1;
+.cell:hover{
+    background-color: rgb(12, 12, 12);
 }
-
-.currentPlayer {
+.currentPlayer{
     width: 140px;
     font-size: 18px;
     display: flex;
     align-items: center;
 }
-
-.stat {
+.start{
     display: flex;
     align-items: center;
-    font-size: 18px;
+        font-size: 18px;
 }
-
-.stat table {
-    border-collapse: collapse;
+.start table{
+    border-collapse:collapse ;
 }
-
-.stat table, .stat th, .stat td {
+.start table, .start th, .start td{
     border: 1px solid #000;
     padding: 5px;
     text-align: center;
@@ -57,3 +58,4 @@
     align-items: center;
     justify-content: center;
 }
+
